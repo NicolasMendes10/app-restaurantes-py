@@ -1,5 +1,7 @@
 import os
 
+##
+
 restaurantes = [{'nome':'Praça','categoria':'Japonesa','ativo':False}
                 ,{'nome':'Pìzza Suprema','categoria':'Pizza','ativo':True}
                 ,{'nome':'Cantina','categoria':'Italiana','ativo':False}]
