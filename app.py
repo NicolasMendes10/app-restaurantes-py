@@ -1,6 +1,5 @@
 import os
 
-##
 
 restaurantes = [{'nome':'Praça','categoria':'Japonesa','ativo':False}
                 ,{'nome':'Pizza','categoria':'Pizza','ativo':True}
@@ -50,15 +49,13 @@ def exibir_subtitulos(texto):
 
 
 def cadastrar_novo_restaurante():
-    ''' Essa função é responsável por cadastrar um novo restaurante 
-    
+    ''' Essa função é responsável por cadastrar um novo restaurante     
     Inputs:
     - Nome do restaurante
     - Categoria
     
     Outputs:
     - Adiciona um novo restaurante na lista de restaurantes
-    
     '''
 
     exibir_subtitulos('## Cadastro de novos restaurantes ##')
